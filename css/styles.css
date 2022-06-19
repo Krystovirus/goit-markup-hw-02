@@ -62,7 +62,7 @@ body {font-family: var(--font-family-primary);
 padding-top: 60px;
 padding-bottom: 60px;}
 
-.footer-address {display: flex; flex-direction: column;}
+.footer-address {display: flex; flex-direction: column; margin-top: 20px;}
 
 .footer-logo, .footer-address {margin-left: 215px;}
 
@@ -80,7 +80,8 @@ padding-bottom: 60px;}
     font-size: var(--pimary-size);
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--footer-contacts-color);}
+    color: var(--footer-contacts-color);
+    padding-top: 9px;}
 
 .main-page {background-color: var(--main-bg-color); align-self: center; display: flex;
     justify-content: space-between; flex-direction: column;}
