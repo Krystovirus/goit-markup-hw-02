@@ -20,7 +20,7 @@
 body {font-family: var(--font-family-primary);
     color: var(--primary-text-color);}
 
-.button {cursor: pointer;}
+.button {cursor: pointer; font-family: inherit;}
 .list {list-style-type : none;}
 .link {text-decoration: none;}
 
