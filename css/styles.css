@@ -138,7 +138,9 @@ padding-bottom: 60px;}
 
 .job-pics {margin-bottom: var(--common-margin);}
 
-.caption { align-items: flex-start; padding-bottom: 30px; padding-left: 24px;}
+.caption {text-align: center; padding-bottom: 30px;}
+
+.caption-project {align-items: flex-start; padding-bottom: 30px; padding-left: 24px;}
 
 .container {background-color: var(--primary-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
