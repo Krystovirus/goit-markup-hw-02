@@ -132,6 +132,9 @@ padding-bottom: 60px;}
 
 .team-list, .job-pics {display: flex; flex-direction: row; align-items: center; justify-content: center;}
 
+.team-list {margin-block-start: 0;
+    margin-block-end: 0;}
+
 .job-pics {margin-bottom: var(--common-margin);}
 
 .caption {text-align: center;}
@@ -182,12 +185,14 @@ padding-bottom: 60px;}
     text-align: center;
     margin-bottom: 200px;
     border-color: transparent;
-    margin-right: 8px;}
+    margin-right: 8px;
+    margin-top: var(--common-margin);
+    margin-bottom: 34px;}
 .filter:hover {background: var(--color-logo);
     color: var(--primary-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 
-.catalogue {display: flex; flex-direction: row; justify-content: center; width: 100%; flex-wrap: wrap;}
+.catalogue {display: flex; flex-direction: row; justify-content: center; width: 100%; flex-wrap: wrap; margin-bottom: var(--common-margin);}
 
 .project-name {font-weight: 700;
     font-size: var(--project-title);
