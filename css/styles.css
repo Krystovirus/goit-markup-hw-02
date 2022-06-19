@@ -37,6 +37,8 @@ body {font-family: var(--font-family-primary);
 
 .header, .navigation, .pages {display: flex; flex-direction: row; align-items: center; justify-content: center; justify-content: space-evenly;}
 
+.job-list {margin-right: 30px;}
+
 .pages-list {margin-right: 50px;}
 
 .navigation-link {
@@ -79,7 +81,8 @@ padding-bottom: 60px;}
     letter-spacing: 0.03em;
     color: var(--footer-contacts-color);}
 
-.main-page {background-color: var(--main-bg-color);}
+.main-page {background-color: var(--main-bg-color); align-self: center; display: flex;
+    justify-content: space-between; flex-direction: column;}
 
 .main-title {
     width: 696px;
@@ -91,7 +94,7 @@ padding-bottom: 60px;}
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
+    align-self: center;
     color: var(--primary-color);}
 
 .service-order {background: var(--color-logo);
@@ -102,7 +105,8 @@ padding-bottom: 60px;}
     line-height: 2;
     color: var(--primary-color);
     margin-bottom: 200px;
-    border-color: transparent;}
+    border-color: transparent;
+    align-self: center;}
 
 .business {background-color: var(--primary-color);}
 
@@ -119,11 +123,11 @@ padding-bottom: 60px;}
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);}
 
-.job-pics {column-count : 3;}
+.job-pics {}
 
-.our-team {background-color: var(--secondary-bg-color); padding-top: 94px;}
+.our-team {background-color: var(--secondary-bg-color);}
 
-.team-list {display: flex; flex-direction: row; align-items: center; justify-content: center;}
+.team-list, .job-pics {display: flex; flex-direction: row; align-items: center; justify-content: center;}
 
 .caption {text-align: center;}
 
