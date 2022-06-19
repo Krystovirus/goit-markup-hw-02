@@ -14,6 +14,7 @@
     --logo-size : 26px;
     --title-size : 36px;
     --headline-size : 44px;
+    --common-margin : 94px;
     --font-family-primary : 'Roboto', sans-serif;
     --font-family-logo : 'Raleway', sans-serif;}
 
@@ -108,9 +109,11 @@ padding-bottom: 60px;}
     border-color: transparent;
     align-self: center;}
 
-.business {background-color: var(--primary-color);}
+.business {background-color: var(--primary-color); margin-top: var(--common-margin);}
 
-.qualities {column-count : 4;}
+.qualities {display: flex; flex-direction: row; align-items: center; justify-content: center;}
+
+.quality-list {display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: 270px; margin-right: 30px;}
 
 .quality-title {font-weight: 700;
     font-size: var(--pimary-size);
@@ -129,6 +132,8 @@ padding-bottom: 60px;}
 
 .team-list, .job-pics {display: flex; flex-direction: row; align-items: center; justify-content: center;}
 
+.job-pics {margin-bottom: var(--common-margin);}
+
 .caption {text-align: center;}
 
 .container, .project {}
@@ -138,7 +143,7 @@ padding-bottom: 60px;}
     display: flex; flex-direction: column; 
     width: 270px;
     margin-top: 50px;
-    margin-bottom: 94px;
+    margin-bottom: var(--common-margin);
     margin-right: 30px;}
 
 .project {display: flex; flex-direction: column; 
@@ -150,7 +155,7 @@ padding-bottom: 60px;}
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;}
 
 .name {font-weight: 500;
@@ -163,7 +168,8 @@ padding-bottom: 60px;}
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);}
+    color: var(--secondary-text-color);
+    margin-bottom: var(--common-margin);}
 
 .project-filters { display: flex; flex-direction: row; justify-content: center;}
 
