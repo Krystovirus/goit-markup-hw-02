@@ -33,9 +33,11 @@ body {font-family: var(--font-family-primary);
 
 .blue-logo {color: var(--color-logo);}
 
-.header {}
+.header { box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);}
 
-.navigation {}
+.header, .navigation, .pages {display: flex; flex-direction: row; align-items: center; justify-content: center; justify-content: space-evenly;}
+
+.pages-list {margin-right: 50px;}
 
 .navigation-link {
     font-weight: 500;
@@ -56,6 +58,10 @@ body {font-family: var(--font-family-primary);
 .footer {background-color: var(--main-bg-color);
 padding-top: 60px;
 padding-bottom: 60px;}
+
+.footer-address {display: flex; flex-direction: column;}
+
+.footer-logo, .footer-address {margin-left: 215px;}
 
 .footer-logo {}
 
@@ -115,17 +121,32 @@ padding-bottom: 60px;}
 
 .job-pics {column-count : 3;}
 
-.our-team {background-color: var(--secondary-bg-color);}
+.our-team {background-color: var(--secondary-bg-color); padding-top: 94px;}
 
-.team-list {column-count : 4;}
+.team-list {display: flex; flex-direction: row; align-items: center; justify-content: center;}
 
 .caption {text-align: center;}
+
+.container, .project {}
+
+.container {background-color: var(--primary-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    display: flex; flex-direction: column; 
+    width: 270px;
+    margin-top: 50px;
+    margin-bottom: 94px;
+    margin-right: 30px;}
+
+.project {display: flex; flex-direction: column; 
+    width: 370px;
+    margin: 30px}
 
 .subtitle {font-weight: 700;
     font-size: var(--title-size);
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 94px;
     margin-bottom: 50px;}
 
 .name {font-weight: 500;
@@ -157,7 +178,7 @@ padding-bottom: 60px;}
     color: var(--primary-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 
-.catalogue {column-count : 3;}
+.catalogue {display: flex; flex-direction: row; justify-content: center; width: 100%; flex-wrap: wrap;}
 
 .project-name {font-weight: 700;
     font-size: var(--project-title);
