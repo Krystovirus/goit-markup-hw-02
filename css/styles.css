@@ -66,7 +66,7 @@ padding-bottom: 60px;}
 
 .footer-logo, .footer-address {margin-left: 215px;}
 
-.footer-logo {}
+.footer-logo { color: var(--primary-color);}
 
 .address {font-style: normal;
     font-size: var(--pimary-size);
